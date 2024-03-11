@@ -30,7 +30,12 @@ const Countries = () => {
                         <h3>visited Countries {visitedCountries.length}</h3>
                         <ul>
                               {
-                                    visitedCountries.map(country =><li key={country.cca3}>{country.name.common}</li>)
+                                    visitedCountries.map(country =><li 
+                                          key={country.cca3}
+                                          >
+                                                {country.name.common}
+                                                </li>
+                                                )
                               }
 
                         </ul>
